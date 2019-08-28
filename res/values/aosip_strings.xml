@@ -402,6 +402,12 @@
     <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
     <string name="accent_color">Accent color</string>
 
+    <!-- Automatic theme based on time -->
+    <string name="systemui_theme_time">Automatic (time of the day)</string>
+    <string name="systemui_theme_time_title">Schedule dark theme</string>
+    <string name="systemui_theme_time_start_time_title">Start time</string>
+    <string name="systemui_theme_time_end_time_title">End time</string>
+
     <!-- Selinux -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>

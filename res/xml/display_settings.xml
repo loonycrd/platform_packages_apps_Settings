@@ -169,6 +169,12 @@
             android:entries="@array/dark_ui_mode_entries"
             android:entryValues="@array/dark_ui_mode_values" />
 
+        <Preference
+            android:key="theme_time_settings"
+            android:title="@string/systemui_theme_time_title"
+            android:fragment="com.android.settings.display.SystemUiThemeTimeSettings"
+            settings:controller="com.android.settings.display.SystemUiThemeTimePreferenceController" />
+
         <com.aosip.support.preference.SystemSettingSwitchPreference
             android:key="use_blackaf_theme"
             android:title="@string/blackaf_theme_title"
